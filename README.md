@@ -3,7 +3,9 @@
 
 ## 前述 ##
 - [高德官网申请Key](http://lbs.amap.com/dev/#/).
-- 阅读[参考手册](http://a.amap.com/lbs/static/unzip/Android_Map_Doc/index.html).
+- 阅读
+  [地图SDK参考手册](http://a.amap.com/lbs/static/unzip/Android_Map_Doc/index.html). 
+  [定位SDK参考手册](http://a.amap.com/lbs/static/unzip/Android_Location_Doc/index.html).
 - 工程基于高德地图及定位SDK实现
 
 ## 使用方法##
