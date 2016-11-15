@@ -150,11 +150,12 @@ public class MainActivity extends AppCompatActivity implements LocationSource,
                     addCircle(location, amapLocation.getAccuracy());//添加定位精度圆
                     addMarker(location);//添加定位图标
                     mSensorHelper.setCurrentMarker(mLocMarker);//定位图标旋转
-                    aMap.moveCamera(CameraUpdateFactory.newLatLng(location));
+                    aMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location,18));
                 } else {
                     mCircle.setCenter(location);
                     mCircle.setRadius(amapLocation.getAccuracy());
                     mLocMarker.setPosition(location);
+                    aMap.moveCamera(CameraUpdateFactory.changeLatLng(location));
                 }
             } else {
                 String errText = "定位失败," + amapLocation.getErrorCode() + ": " + amapLocation.getErrorInfo();

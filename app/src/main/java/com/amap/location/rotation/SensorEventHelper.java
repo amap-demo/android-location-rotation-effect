@@ -68,7 +68,6 @@ public class SensorEventHelper implements SensorEventListener {
 				break;
 			}
 			mAngle = Float.isNaN(x) ? 0 : x;
-			Log.d("LG","angle:"+(360-mAngle));
 			if (mMarker != null) {
 				mMarker.setRotateAngle(360-mAngle);
 			}
