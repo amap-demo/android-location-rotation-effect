@@ -1,13 +1,12 @@
 package com.amap.location.rotation;
 
-import android.app.Activity;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.amap.api.location.AMapLocation;
@@ -26,7 +25,10 @@ import com.amap.api.maps.model.LatLng;
 import com.amap.api.maps.model.Marker;
 import com.amap.api.maps.model.MarkerOptions;
 
-public class MainActivity extends Activity implements LocationSource,
+/**
+ * 定位图标箭头指向手机朝向
+ */
+public class MainActivity extends AppCompatActivity implements LocationSource,
         AMapLocationListener {
     private AMap aMap;
     private MapView mapView;
