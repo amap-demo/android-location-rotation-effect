@@ -1,4 +1,5 @@
 # android-location-rotation-effect
+定位图标箭头指向手机朝向示例
 
 ## 前述 ##
 - [高德官网申请Key](http://lbs.amap.com/dev/#/).
@@ -11,4 +12,6 @@
 - [通过maven库引入SDK方法](http://lbsbbs.amap.com/forum.php?mod=viewthread&tid=18786).
 
 ## 扫一扫安装##
+![Screenshot](https://github.com/amap-demo/android-location-rotation-effect/raw/master/resource/download.png)
+
 
