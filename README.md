@@ -94,7 +94,7 @@
     }
 ```
 
- - 定位成功回调处理Marker与Circle绘制
+ - 定位回调成功处理Marker与Circle绘制
 ```java
             if (!mFirstFix) {
                 mFirstFix = true;
