@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidLocationRotationEffect</string>
+    <string name="app_name">定位图标指示方向效果</string>
     <string name="gpsfollow">追随</string>
     <string name="gpslocate">定位</string>
     <string name="gpsrotate">旋转</string>
